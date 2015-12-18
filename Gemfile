@@ -11,6 +11,8 @@ gem 'haml-rails', :group => :development
 # Markdown filter Redcarpet
 gem 'redcarpet'
 
+# For Heroku
+gem 'rails_12factor', group: :production
 ############################
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
