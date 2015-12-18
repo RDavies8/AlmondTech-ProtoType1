@@ -1,5 +1,17 @@
 source 'https://rubygems.org'
 
+##### Custom Additions #####
+#Bootstrap
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+
+#Haml
+gem 'haml-rails', :group => :development
+
+# Markdown filter Redcarpet
+gem 'redcarpet'
+
+############################
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
