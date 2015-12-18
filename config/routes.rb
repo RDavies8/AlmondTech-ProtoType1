@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'bids/place'
+
+  get 'bids/completed'
+
+  get 'development/coming_soon'
+
   get 'welcome/index'
 
   root 'welcome#index'

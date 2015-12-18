@@ -1,21 +1,21 @@
 
 .page-header
-  %h2 What We Do?
-.jumbotron
-  %h4.content
-    :markdown
-      **We revolutionize the way almonds are traded:
-      Get the best price..
-      Minimize the risk..**
-
-      <sub>AlmondYard is the easiest and safest place to buy or sell almonds on the global wholesale market. We eliminate all the "middlemen" so the buyers get the lowest price possible and sellers get the highest price possible. Our parented "SafeTransact" technology analyzes historical price data, current supply/demand data, past and current economic markets, and global climate data along with buyer profile data to better price the risk for your buy/sell transactions. This will not only ensure that you will get the best price possible but also makes your transaction risk free. With AlmondYard, you will never again wonder whether you are getting the best price for your shipment, or whether you will get paid in the end.</sub>
-
-
+  %h2 We Revolutionize The Way Almonds Are Traded
 .row
-  .col-xs-4
-    %button.btn.btn-default.center-block= link_to 'Looking to Buy Almonds?', '#'
-  .col-xs-4
-    %button.btn.btn-default.center-block= link_to 'Looking to Sell Almonds?', '#'
-  .col-xs-4
-    %button.btn.btn-default.center-block
-      = link_to 'Looking to Insure a Transaction?', '#'
+  .col-xs-3= image_tag 'almond.png', class:'img-responsive'
+  .col-xs-9
+    .jumbotron
+      %h4.content
+        :markdown
+          **Streamline Your Almond Transactions**
+          
+          <sub>AlmondTech is the easiest place to buy almonds on the global wholesale market. We eliminate all the "middlemen" so the buyers get the lowest price possible. When you place an order through AlmondTech, your order will immediately be pushed to handlers and sellers all over California, giving your order the maximum amount of exposure. Sellers will be able to compete for your business with lower counter offers, ensuring that you won’t be over paying current market standard. With AlmondTech, you will never again wonder whether you are getting the current, lowest price possible.</sub>
+
+          *Remove the hassle*
+
+          *Know your getting the best prices*
+          
+    %button.btn.btn-default.btn-block.center-block= link_to 'Place an Order to All of California', bids_place_path
+
+
+
